@@ -120,3 +120,15 @@ outline: none;
   margin: 0;
 }
 
+/* 9-я домашка
+========================================== */
+
+.change-color{
+  border-radius: 5px;
+}
+
+.change-color:hover,
+.change-color:focus{
+  background-color: #c2c2c2;
+  outline: none;
+}
