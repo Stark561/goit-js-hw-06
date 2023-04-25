@@ -22,10 +22,33 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+/* Меню
+======================================== */
 
+.menu-list{
+  list-style: none;
+}
+
+.menu-item{
+  margin-bottom: 20px;
+}
+
+.menu-link{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.menu-link:hover,
+.menu-link:focus{
+color: #fdb93a;
+outline: none;
+}
 
 /* 3-я домашка 
 ========================================= */
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -44,6 +67,7 @@ button {
 
 /* 4-я домашка
 ========================================= */
+
 #counter {
   display: flex;
   align-items: center;
@@ -55,13 +79,13 @@ button {
 #counter button {
   padding: 10px;
   border: 1px solid #616161;
-  background-color: #fdb93a;
-  color: #333;
+  background-color: #ff9b28;
+  color: #000000;
   font-size: 24px;
   cursor: pointer;
   margin: 0 10px;
   border-radius: 5px;
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 #counter button:hover {
@@ -73,9 +97,26 @@ button {
   margin: 0 10px;
 }
 
+/* 6-я домашка
+========================================== */
 
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
 
+#validation-input.valid {
+  border-color: #4caf50;
+}
 
+#validation-input.invalid {
+  border-color: #f44336;
+}
 
+/* 8-я домашка
+========================================= */
 
+.text{
+  font-weight: 500;
+  margin: 0;
+}
 
